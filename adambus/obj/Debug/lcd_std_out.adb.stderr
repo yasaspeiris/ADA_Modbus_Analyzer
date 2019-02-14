@@ -1,0 +1,2 @@
+lcd_std_out.adb:32:19: warning: use clause for package "Board" has no effect
+lcd_std_out.adb:95:10: "Display" is undefined (more references follow)

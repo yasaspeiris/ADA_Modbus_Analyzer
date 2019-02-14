@@ -1,0 +1,34 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+E:\Projects\AdaProjects\adambus\adambus.gpr
+20190207142042
+E:\Projects\AdaProjects\Ada_Drivers_Library-master\boards\stm32f407_discovery\stm32f407_discovery_full.gpr
+20190125183456
+[BOUND OBJECT FILES]
+E:\Projects\AdaProjects\adambus\obj\Debug\bmp_fonts.o
+E:\Projects\AdaProjects\adambus\obj\Debug\hershey_fonts.o
+E:\Projects\AdaProjects\adambus\obj\Debug\bitmapped_drawing.o
+E:\Projects\AdaProjects\adambus\obj\Debug\button.o
+E:\Projects\AdaProjects\adambus\obj\Debug\leds.o
+E:\Projects\AdaProjects\adambus\obj\Debug\last_chance_handler.o
+E:\Projects\AdaProjects\adambus\obj\Debug\serial.o
+E:\Projects\AdaProjects\adambus\obj\Debug\mbus.o
+E:\Projects\AdaProjects\adambus\obj\Debug\my_i2c.o
+E:\Projects\AdaProjects\adambus\obj\Debug\screen.o
+E:\Projects\AdaProjects\adambus\obj\Debug\driver.o
+E:\Projects\AdaProjects\adambus\obj\Debug\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LE:\Projects\AdaProjects\adambus\obj\Debug\
+-LE:\Projects\AdaProjects\adambus\obj\Debug\
+-LE:\Projects\AdaProjects\Ada_Drivers_Library-master\examples\shared\common\
+-LE:\Projects\AdaProjects\Ada_Drivers_Library-master\boards\stm32f407_discovery\obj\full_lib_Debug\
+-LE:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\adalib\
+-static
+-static-libgcc
+E:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\adalib\libgnarl.a
+E:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\adalib\libgnat.a

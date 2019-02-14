@@ -1,0 +1,4 @@
+screen.ads:1:21: warning: use clause for package "HAL" has no effect
+screen.ads:4:11: warning: no entities of "STM32.I2C" are referenced
+screen.ads:4:17: warning: use clause for package "I2C" has no effect
+screen.ads:7:06: warning: unit "SSD1306" is not referenced

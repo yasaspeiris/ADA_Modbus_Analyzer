@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\GNAT\bin\test1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 2" >
+      <vfs_project />
+      <vfs_file>E:\GNAT\bin\test1.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\adambus.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\leds.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\leds.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\adambus.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\adambus.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\adambus.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 99" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 23" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 21" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 14" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 91" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\driver.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\driver.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>E:\Projects\AdaProjects\adambus\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

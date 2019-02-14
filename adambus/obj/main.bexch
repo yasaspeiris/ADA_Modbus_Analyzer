@@ -1,0 +1,28 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+E:\Projects\AdaProjects\adambus\adambus.gpr
+20190207135202
+[BOUND OBJECT FILES]
+E:\Projects\AdaProjects\adambus\obj\stm32f4.o
+E:\Projects\AdaProjects\adambus\obj\stm32f4-gpio.o
+E:\Projects\AdaProjects\adambus\obj\stm32f4-reset_clock_control.o
+E:\Projects\AdaProjects\adambus\obj\stm32f4-sysconfig_control.o
+E:\Projects\AdaProjects\adambus\obj\registers.o
+E:\Projects\AdaProjects\adambus\obj\button.o
+E:\Projects\AdaProjects\adambus\obj\leds.o
+E:\Projects\AdaProjects\adambus\obj\driver.o
+E:\Projects\AdaProjects\adambus\obj\last_chance_handler.o
+E:\Projects\AdaProjects\adambus\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LE:\Projects\AdaProjects\adambus\obj\
+-LE:\Projects\AdaProjects\adambus\obj\
+-LE:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\adalib\
+-static
+-static-libgcc
+E:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\adalib\libgnarl.a
+E:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-sfp-stm32f4\adalib\libgnat.a
