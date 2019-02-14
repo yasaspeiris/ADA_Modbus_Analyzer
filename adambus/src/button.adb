@@ -12,7 +12,7 @@ package body Button is
       Last_Time : Time := Clock;
    end Button;
 
-   Debounce_Time : constant Time_Span := Milliseconds (500);
+   Debounce_Time : constant Time_Span := Milliseconds (300);
    protected body Button is
 
       procedure Interrupt is
@@ -27,31 +27,32 @@ package body Button is
          if Now - Last_Time >= Debounce_Time then
 
             if not SW1.Set then
-               X_Pos := X_Pos +1;
-               if X_Pos > 5 then
-                  X_Pos := 0;
-               end if;
-
-            end if;
-
-            if not SW2.Set then
                X_Pos := X_Pos  - 1;
                if X_Pos < 0 then
                   X_Pos := 0;
                end if;
             end if;
 
-            if not SW3.Set then
+            if not SW2.Set then
                Y_Pos := Y_Pos  + 1;
                if Y_Pos > 9 then
                   Y_Pos := 0;
                end if;
             end if;
 
-            if not SW4.Set then
+            if not SW3.Set then --ok
                Y_Pos := Y_Pos  - 1;
                if Y_Pos < 0 then
                   Y_Pos := 0;
+               end if;
+
+
+            end if;
+
+            if not SW4.Set then
+               X_Pos := X_Pos +1;
+               if X_Pos > 5 then
+                  X_Pos := 0;
                end if;
             end if;
             Last_Time := Now;
