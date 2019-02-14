@@ -8567,15 +8567,14 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 </net>
 <net name="EARTH" class="0">
 <segment>
-<wire x1="259.08" y1="-35.56" x2="228.6" y2="-35.56" width="0.1524" layer="91"/>
-<label x="228.6" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="X3" gate="-1" pin="KL"/>
-<wire x1="259.08" y1="-35.56" x2="259.08" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-3" pin="KL"/>
+<wire x1="241.3" y1="10.16" x2="233.68" y2="10.16" width="0.1524" layer="91"/>
+<label x="233.68" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-1" pin="KL"/>
-<wire x1="241.3" y1="0" x2="233.68" y2="0" width="0.1524" layer="91"/>
-<label x="233.68" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="X3" gate="-3" pin="KL"/>
+<wire x1="259.08" y1="-20.32" x2="236.22" y2="-20.32" width="0.1524" layer="91"/>
+<label x="236.22" y="-20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="B-" class="0">
@@ -8597,21 +8596,20 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 </net>
 <net name="A+" class="0">
 <segment>
-<wire x1="246.38" y1="-17.78" x2="228.6" y2="-17.78" width="0.1524" layer="91"/>
-<label x="228.6" y="-17.78" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="X3" gate="-3" pin="KL"/>
-<wire x1="246.38" y1="-17.78" x2="246.38" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="-20.32" x2="259.08" y2="-20.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <label x="231.14" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="X4" gate="G$1" pin="4"/>
 <wire x1="231.14" y1="38.1" x2="261.62" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="-3" pin="KL"/>
-<wire x1="241.3" y1="10.16" x2="233.68" y2="10.16" width="0.1524" layer="91"/>
-<label x="233.68" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="X1" gate="-1" pin="KL"/>
+<wire x1="241.3" y1="0" x2="233.68" y2="0" width="0.1524" layer="91"/>
+<label x="233.68" y="0" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="259.08" y1="-35.56" x2="228.6" y2="-35.56" width="0.1524" layer="91"/>
+<label x="228.6" y="-35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="X3" gate="-1" pin="KL"/>
+<wire x1="259.08" y1="-35.56" x2="259.08" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
