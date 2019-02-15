@@ -108,6 +108,11 @@ begin
 
          if X_Pos /=5 then
             Screen.Clear_Screen;
+            X_Pos :=0;
+            Y_Pos :=0;
+            Prev_X_Pos :=0;
+            Prev_Y_Pos :=0;
+
             exit;
          end if;
       end loop;
