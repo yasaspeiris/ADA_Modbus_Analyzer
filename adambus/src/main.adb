@@ -112,6 +112,7 @@ begin
             Y_Pos :=0;
             Prev_X_Pos :=0;
             Prev_Y_Pos :=0;
+            Mbus.ClearResponseBuffer;
 
             exit;
          end if;
