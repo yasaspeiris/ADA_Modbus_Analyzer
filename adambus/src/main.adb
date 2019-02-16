@@ -40,11 +40,14 @@ begin
          if X_Pos = 2 then
             exit;
          else
-            if X_Pos /= Prev_X_Pos then
+            if X_Pos /= Prev_X_Pos and X_Pos /=2 then
                Screen.Put(X=> (7-Prev_X_Pos)*16, Y=>24, Msg => " ");
                Screen.Put(X=> (7-X_Pos)*16, Y=>24, Msg => "^");
                Prev_X_Pos := X_Pos;
                Y_Pos := 0;
+               AdrArray(X_Pos) := Y_Pos;
+               Screen.Put(X=> (7-X_Pos)*16, Y=>0, Msg => " ");
+               Screen.Put(X=> (7-X_Pos)*16, Y=>0, Msg => Trim(Integer'Image(Y_Pos),Ada.Strings.Left));
                Prev_Y_Pos := 0;
             end if;
 
@@ -73,11 +76,14 @@ begin
          if X_Pos = 5 then
             exit;
          else
-            if X_Pos /= Prev_X_Pos then
+            if X_Pos /= Prev_X_Pos and X_Pos /= 5 then
                Screen.Put(X=> (7-Prev_X_Pos)*16, Y=>24, Msg => " ");
                Screen.Put(X=> (7-X_Pos)*16, Y=>24, Msg => "^");
                Prev_X_Pos := X_Pos;
                Y_Pos := 0;
+               MBArray(X_Pos) := Y_Pos;
+               Screen.Put(X=> (7-X_Pos)*16, Y=>0, Msg => " ");
+               Screen.Put(X=> (7-X_Pos)*16, Y=>0, Msg => Trim(Integer'Image(Y_Pos),Ada.Strings.Left));
                Prev_Y_Pos := 0;
             end if;
 
@@ -113,6 +119,14 @@ begin
             Prev_X_Pos :=0;
             Prev_Y_Pos :=0;
             Mbus.ClearResponseBuffer;
+            for i in MBArray'Range loop
+               MBArray(i) :=0;
+
+            end loop;
+            for i in AdrArray'Range loop
+               AdrArray(i) :=0;
+            end loop;
+
 
             exit;
          end if;
