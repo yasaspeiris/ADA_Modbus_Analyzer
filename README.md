@@ -17,6 +17,3 @@ First Test : https://www.youtube.com/watch?v=bEcFYIxN1XE
 
 Final Demo : https://www.youtube.com/watch?v=MtwckgqX_BE
 
-
-## Special Thanks
-Doc Walker - https://github.com/4-20ma/ModbusMaster
